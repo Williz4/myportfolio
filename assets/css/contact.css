@@ -548,6 +548,16 @@ body {
 	display: flex;
 }
 
+@media (max-width: 37.5em) {
+	.footer__socials {
+		flex-direction: column;
+	}
+
+	.footer__socials a:not(:last-of-type) {
+		margin-bottom: 2rem;
+	}
+}
+
 .footer__socials--icon {
 	margin-right: .4rem;
 }
